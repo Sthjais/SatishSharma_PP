@@ -1,0 +1,238 @@
+.home{
+    width: 100%;
+    height: 100%;
+    background-color: #dff5edf1;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+.cloud1{
+    position: absolute;
+    top: 5%;
+    width: 20%;
+    animation-name: FlyingRight;
+    animation-duration: 25s;
+    animation-timing-function: linear ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes FlyingRight{
+    from{
+        right: 20%;        
+    }
+
+    to{
+        right: 0%;        
+    }
+}
+
+.cloud2{
+    position: absolute;
+    width: 20%;
+    margin: 3% auto 0 auto;
+    animation-name: FlyingLeft;
+    animation-duration: 25s;
+    animation-timing-function: linear ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes FlyingLeft{
+    from{
+        left: 20%;
+    }
+
+    to{
+        left: 0%;
+    }
+}
+
+.mountain{
+    bottom: 0px;
+    margin: 3% auto 0 auto;
+    width: 70%;
+}
+
+.titletext h1{
+    font-size: 4.5rem;
+    margin: 7% auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:#65d6ce;
+}
+
+.titletext h2{
+    font-size: 1.5rem;
+    margin: 0 auto 4% auto;
+    font-family: 'Montserrat', sans-serif;
+    color:#65d6ce;
+}
+
+.titletext h2 span{
+    text-decoration: underline;
+}
+
+/* hr */
+
+hr{
+    border: none;
+    border-top: 8px dotted #e7ecec;;
+    margin: 6% auto;
+    width: 10%;
+
+}
+
+
+/* Profile Section */
+.profile{
+    margin: 6% 0;
+    text-align: center;
+}
+
+.profile img{
+    width: 16%;
+    border-radius: 100%;
+    
+}
+
+.profile_text h2{
+   margin: 3% auto 3% auto;
+   font-size: 1.5rem;
+   font-family: 'Montserrat', sans-serif;
+   color:#65d6ce;
+}
+
+.profile_text p{
+    padding: 0 10% 0;
+    font-size: .7rem;
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ /* Skill section */
+ .skills {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2%;
+    background-color: #dff5edf1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills div h2{
+    color: #65d6ce;
+    font-size: 1.5rem;
+    text-shadow: 1px .5px 2px rgb(114, 113, 113);
+    padding-bottom: 2%;
+}
+
+.Applications, .SoftSkill {
+    /* background-color: red; */
+    padding: 1% 2%;
+    margin-bottom: 2%;
+    
+}
+
+.skills ul li{
+    list-style: none;
+    font-size: .7rem;
+    display: inline-block;
+    padding: .7rem;
+    color: #727878;
+}
+
+.skills ul li:hover{
+    font-weight: 400;
+    text-shadow: 0px 0px 2px #767979;
+    transition: .5s;
+}
+
+.skill_image img{
+    max-width: 12%;
+    vertical-align: middle;
+    padding: 2% 1.5%;
+    filter: grayscale(100%);
+}
+
+.skill_image img:hover{
+    filter: grayscale(0%);
+    transition: .5s;
+}
+
+/* Social section */
+section.contact-info{
+    margin: 0 auto 6% 0;
+    padding: 10% auto;
+    text-align: center;
+}
+
+.socials h2{
+    color: #65d6ce;
+    font-size: 2rem;
+    margin: 0 auto 8% auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socials h3{
+    font-size: 1rem;
+    color: #65d6ce;
+    letter-spacing: 1.2px;
+    margin: 3% auto 8% auto;
+    padding: 0 15%;
+    line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socials ul{
+    text-align: center;
+}
+.socials li{
+    list-style: none;
+    display: inline-block;
+    margin: 1% 4% 2% 4%;
+    font-size: .8rem;
+    
+}
+
+.socials li a{
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+    /* color: #727878; */
+    color: darkturquoise;
+}
+
+.socials li a:hover{
+    color: white;
+    text-shadow: 1px 1px 22px black;
+    transition: .5s;
+}
+
+.footer{
+    background-color: #dff5edf1;
+    height: 100px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.footer p:first-child{
+    font-size: .8rem;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+}
+
+.copyright {
+    position: absolute;
+    font-size: .8rem;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background: black;
+}
+
+
+
+
